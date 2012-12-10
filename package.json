@@ -16,5 +16,8 @@
     "browserify"
   ],
   "author": "David Guttman",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "deep-extend": "~0.2.5"
+  }
 }
