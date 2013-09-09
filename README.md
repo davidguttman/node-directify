@@ -2,6 +2,8 @@
 
 Directify is a client-side router, actually it's pretty much Director.js (included) with some additional features/tweaks.
 
+    npm install directify
+
 Example usage:
 
 ```javascript
