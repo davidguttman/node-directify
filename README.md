@@ -9,7 +9,13 @@ Example usage:
 ```javascript
 var router = require('directify');
 
-// Usage: router(routingTable, targetElement);
+// Usage: router(routingTable, targetElement, directorOpts);
+
+var directorOpts = {
+  notfound: function () {
+    console.error('route not found')
+  }
+}
 
 var routingTable = {
   '/': function() {
@@ -29,6 +35,6 @@ var routingTable = {
 
 $(document).ready(function() {
   var targetElement = document.getElementById('main');
-  router(routingTable, targetElement);
+  router(routingTable, targetElement, directorOpts);
 });
 ```
