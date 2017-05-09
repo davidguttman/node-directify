@@ -1,6 +1,6 @@
 {
   "name": "directify",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Easier use of Director.js with Browserify, plus some added features.",
   "main": "index.js",
   "scripts": {
